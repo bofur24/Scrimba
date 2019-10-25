@@ -1,9 +1,9 @@
 # Scrimba
-The Responsive Web Design Bootcamp
+### The Responsive Web Design Bootcamp
 
 
 ## CSS Fundamentals ##
-### Videos
+#### Videos
  1.  Welcome to the course!
  2.  Introduction to the CSS Fundamentals module
  3.  Margin and Padding - Margins and spacing out text
@@ -30,5 +30,5 @@ The Responsive Web Design Bootcamp
  14. Solution to the challenge and module wrap up
 
 ## Starting to think responsively
-### Videos
+#### Videos
 
