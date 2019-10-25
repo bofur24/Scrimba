@@ -1,0 +1,75 @@
+/* My styles */
+h1 {
+    color: #2e7ad3;
+    font-size: 48px;
+    text-align: center;
+    margin: 45 0;
+}
+
+h2 {
+    color: #104c90;
+    font-size: 32px;
+}
+
+img {
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 9px;
+}
+
+.card {
+    background: #f1f1f1;
+    width: 500px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+a {
+    color: #ff8000;
+}
+
+hr {
+    margin: 50px 0;
+}
+/*************************************************/
+/* Answer styles */
+.answer-body {
+    font-size: 16px;
+}
+
+.answer-h1 {
+    font-size: 48px;
+    color: #2e7ad3;
+    text-align: center;
+    margin: 45px 0;
+}
+
+.answer-h2 {
+    font-size: 32px;
+    color: #104c90;
+    margin: 0 0 10px 0;
+}
+
+.answer-a {
+    color: #ff8000;
+    font-weight: bold;
+}
+
+.answer-a:hover,
+.answer-a:focus {
+    color: #104c90;
+}
+
+.answer-blog-post {
+    background: #f1f1f1;
+    width: 450px;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+.anser-read-more {
+    margin: 0;
+}
