@@ -13,12 +13,16 @@ h1 {
     text-align: center;
 }
 
+h1 span {
+    color: #B7832F;
+}
+
 h2 {
     font-size: 1.5rem;
 }
 
-h1 span {
-    color: #B7832F;
+p {
+    margin-top: 0;
 }
 
 /* layout */
@@ -35,4 +39,11 @@ img {
 
 .columns {
     display: flex;
+    margin: 1em 0;
+}
+
+.col-bg {
+    background-color: #212614;
+    color: #fff;
+    padding: 1em;
 }
