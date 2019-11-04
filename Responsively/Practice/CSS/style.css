@@ -97,3 +97,10 @@ section {
     color: #fff;
 }
 
+/*
+General rule of thumb:
+Font-size = rem
+Padding and margin = em
+Widths = em or percentage  
+*/
+
