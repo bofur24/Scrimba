@@ -1,0 +1,38 @@
+
+body {
+    font-size: 1.125rem;
+    color: #707070;
+    margin: 0;
+}
+
+/* Typography */
+
+h1 {
+    font-size: 3rem;
+    color: #312614;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h1 span {
+    color: #B7832F;
+}
+
+/* layout */
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 90%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.columns {
+    display: flex;
+}
