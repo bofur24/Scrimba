@@ -6,23 +6,6 @@ body {
     background-color: pink;
 }
 
-/*
- form a minimum width of 400px up to a width of 649px
- max-width is from 0 to the number (649px)
-*/
-@media (min-width: 400px) and (max-width: 649px) {
-    body {
-        background-color: purple;
-    }
-}
-
-/* form a minimum width of 650px and bigger */
-@media (min-width: 650px) {
-    body {
-        background-color: orange;
-    }
-}
-
 /* Typography */
 
 h1 {
@@ -79,6 +62,42 @@ img {
     color: #fff;
     padding: 1em;
 }
+
+/* Media Query */
+
+/*
+ form a minimum width of 400px up to a width of 649px
+ max-width is from 0 to the number (600px)
+*/
+@media (min-width: 400px) and (max-width: 600px) {
+    body {
+        background-color: purple;
+    }
+}
+
+/* form a minimum width of 601px and bigger */
+@media (min-width: 601px) {
+    body {
+        background-color: orange;
+    }
+
+
+}
+
+@media (max-width: 600px) {
+    .columns {
+        flex-direction: column;
+    }
+
+    .col-1,
+    .col-2,
+    .col-3 {
+        width: 100%;
+    }
+}
+
+
+
 
 /*
 Media Types
