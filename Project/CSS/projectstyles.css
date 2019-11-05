@@ -3,27 +3,60 @@
     font-family: 'Lora', serif;
     font-family: 'Ubuntu', sans-serif;
  */
- 
+body {
+   margin: 0;
+   font-family: 'Ubuntu', sans-serif;
+}
+
+/* ================
+   Typography 
+   ================*/
+
+h1 {
+   font-family: 'Lora', serif;
+   font-weight: 400;
+   color: #143774;
+   font-size: 2rem;
+   margin: 0;
+}   
+
+.subtitle {
+   font-weight: 700;
+   color: #1792d2;
+   font: .75rem;
+   margin: 0;
+}
+
+header {
+   text-align: center;
+   background: #f8f8f8;
+   padding: 2em 0;
+}
 
 /* Navagation */
 
- nav ul{
-    border: 1px solid magenta;
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
- }
-
- nav li {
-    border: 2px dotted orange;
-    margin: 0 1em;
+nav ul{
+   list-style: none;
+   padding: 0;
+   display: flex;
+   justify-content: center;
 }
 
- nav a {
-    border: 3px solid green;
- }
+nav li {
+   margin: 0 1em;
+}
 
- nav a:hover {
+nav a {
+   text-decoration: none;
+   color: #707070;
+   font-weight: 700;
+}
 
- }
+nav a:hover,
+nav a:focus {
+   color: #1792d2;
+}
+
+.active {
+   text-decoration: underline;
+}
