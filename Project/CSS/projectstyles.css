@@ -22,6 +22,7 @@ img {
 header {
    background: #f8f8f8;
    padding: 2em 0;
+   text-align: center;
 }
 
 .container {
@@ -32,15 +33,8 @@ header {
 
 .container-flex {
    display: flex;
+   flex-direction: column;
    justify-content: space-between;
-}
-
-main {
-   width: 75%;
-}
-
-aside {
-   width: 20%;
 }
 
 /* ================
@@ -144,20 +138,30 @@ nav a:focus {
    Media Query 
    ================*/
 
-@media (max-width: 675px) {
+@media (min-width: 675px) {
    .container-flex {
-      flex-direction: column;
+      flex-direction: row;
    }
 
-   header {
-      text-align: center;
+   main {
+      width: 75%;
    }
 
+   aside {
+      width: 20%;
+   }
+}
+
+
+@media (max-width: 675px) {
    nav ul {
       flex-direction: column;
    }
-
    nav li {
-      margin: .5em .5em;
+      margin: .5em 0;
    }
 }
+
+
+
+
