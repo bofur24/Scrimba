@@ -1,0 +1,9 @@
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.cat {
+   background-image: url(../Images/cat.jpg);
+   padding: 200px; 
+}
