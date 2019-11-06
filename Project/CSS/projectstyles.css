@@ -38,6 +38,13 @@ header {
    justify-content: space-between;
 }
 
+footer {
+   background-color: #143774;
+   color: white;
+   text-align: center;
+   padding: 3em 0;
+}
+
 /* ================
    Articles Layout
    ================*/
@@ -60,6 +67,47 @@ header {
 
 .article-recent-secondary {
    order: 1;
+}
+
+/* ================
+   Widget
+   ================*/
+
+   .sidebar-widget {
+   border: 20px solid #efefef;
+   padding: 1em;
+   margin-bottom: 2em;
+}
+
+.widget-title,
+.widget-recent-post-title {
+   font-size: 1rem;
+}
+
+.widget-title {
+   font-family: 'Ubuntu', sans-serif;
+   font-weight: 700;
+}
+
+.widget-recent-post {
+   display: flex;
+   flex-direction: column;
+   border-bottom: 1px solid #707070;
+   margin-bottom: 1em;
+}
+
+.widget-recent-post:last-child {
+   border: 0;
+   margin: 0;
+}
+
+.widget-image {
+   order: 1;
+   margin-bottom: .5em;
+}
+
+.widget-recent-post-title {
+   order: 2
 }
 
 /* ================
@@ -220,12 +268,3 @@ nav a:focus {
 }
 
 
-/* ================
-   Widget
-   ================*/
-
-.sidebar-widget {
-   border: 20px solid #efefef;
-   padding: 1em;
-   margin-bottom: 2em;
-}
