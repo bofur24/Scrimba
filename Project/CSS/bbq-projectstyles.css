@@ -20,7 +20,7 @@ h1 {
     font-size: 2.25rem;
     font-weight: 300;
     color: #fff;
-    margin: 2em 0;
+    margin: 0;
 }
 
 h1 + p {
@@ -73,6 +73,8 @@ strong {
     padding: 0 .5em 2em;
     display: flex;
     flex-direction: column; 
+    justify-content: space-between;
+    min-height: 50vh;
 }
 
 /* =================
@@ -107,6 +109,12 @@ media queries
     .main-content {
         width: 50%;
         min-height: 100vh;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
 }
