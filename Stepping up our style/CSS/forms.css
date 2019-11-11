@@ -1,0 +1,23 @@
+form {
+    background: #efefef;
+    padding: 2em;
+}
+
+input[type="text"] {
+    margin-bottom: 1em;
+    padding: .25em;
+    border: 0;
+    background: red;
+}
+
+button {
+    background: #eee;
+    border: 0;
+    cursor: pointer;
+    color: #000;
+}
+
+button:hover {
+    background: #404040;
+    color: #eee;
+}
