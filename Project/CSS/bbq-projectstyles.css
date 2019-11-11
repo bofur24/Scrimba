@@ -29,6 +29,7 @@ h1 + p {
 
 h2 {
     font-size: 1.3125rem;
+    margin: 0;
 }
 
 h2 + p {
@@ -36,6 +37,7 @@ h2 + p {
     font-weight: 900;
     font-size: 1rem;
     text-transform: uppercase;
+    margin-top: 0;
 }
 
 strong {
@@ -56,14 +58,22 @@ strong {
 }
 
 /* =================
-   Intro section
+   Intro Section
    ================= */
 
-   .intro {
-       background-color: #404040;
-       background-image: url(../Images/dark-ribs.jpg);
-       padding: 0 .25em 1em;
-       display: flex;
-       flex-direction: column; 
-   }
+.intro {
+    background-color: #404040;
+    background-image: url(../Images/dark-ribs.jpg);
+    padding: 0 .5em 2em;
+    display: flex;
+    flex-direction: column; 
+}
+
+   /* =================
+   Main Content Section
+   ================= */
+
+.main-content {
+    padding: 2em 1em;
+}
 
