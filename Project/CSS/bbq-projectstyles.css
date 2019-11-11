@@ -1,5 +1,9 @@
 /* font-family: 'Source Sans Pro', sans-serif; */
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
@@ -84,7 +88,7 @@ Main Content Section
 media queries
 ================= */
 
-@media (min-width: 500px) {
+@media (min-width: 900px) {
     body {
         font-size: 1.125rem;
         display: flex;
@@ -102,6 +106,7 @@ media queries
     .intro,
     .main-content {
         width: 50%;
+        min-height: 100vh;
     }
 
 }
