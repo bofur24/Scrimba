@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #2c73d2;
+    color: #ffffff;
+    text-align: center;
+}
+
+.flex-container {
+    border: 10px solid #f9f871;
+    width: 80%;
+    margin: 0 auto;
+    padding: .25em;
+    display: flex;
+
+
+
+
+
+
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-flow: row-reverse wrap;  Short hand for flex-direction and flex-wrap*/ 
+    /* flex-direction: row;
+    flex-wrap: nowrap; */ 
+}
+
+.flex-item  {
+    background: #8bee86;
+    margin: .5em;
+    padding: .5em;
+    color: #424656;
+
+    width: 200px;
+}
+
+.flex-item-1 {
+    background: plum;
+    flex-basis: 400px;
+    /* flex-grow: 1; */
+    /*shorthand: flex: grow shrink basis */
+
+
+}
+
+/* .flex-item-2 {
+    /* flex-grow: 2; 
+}
+
+.flex-item-3 {
+    /* flex-grow: 5; 
+} */
