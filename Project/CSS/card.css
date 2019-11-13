@@ -1,0 +1,78 @@
+/* font-family: 'Blinker', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.card {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 800px;
+    background: #111d4a;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img {
+    object-fit: cover;
+    height: 150px;
+}
+
+.card-content {
+    padding: 1em;
+}
+
+.card-read-time,
+.card-btn,
+.card-title {
+    font-family: 'Blinker', sans-serif;
+}
+
+.card-title {
+    color: #05cbe9;
+    font-size: 1.75rem; /*28 font you want / 16 body font = 1.75*/
+    margin: 0;
+}
+
+.card-body {
+    font-size: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.6;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 3em;
+}
+
+.card-btn {
+    font-size: 1.25rem;
+    background: #05cbe9;
+    color: #111d4a;
+    text-decoration: none;
+    font-weight: 700;
+    padding: .35em 1em;
+}
+
+.card-read-time {
+    margin: 0;
+    opacity: .6;
+    line-height: 1.1;
+}
+
+.card-read-time span {
+    font-weight: 700;
+    display: block;
+    font-size: 1.25em;
+}
+
+
